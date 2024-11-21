@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8081:80" # Exponer el puerto 80 de nginx en el puerto 8081 de tu host otro cambio
+      - "8081:80" # Exponer el puerto 80 de nginx en el puerto 8081 de tu host otro cambioo
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf # Solo si tienes un archivo nginx.conf personalizado
     networks:
